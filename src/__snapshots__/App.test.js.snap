@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pathfinder /> matches the snapshot 1`] = `
+<div
+  className="page"
+>
+  Solve the Maze!
+  <Maze
+    directions={Array []}
+    maze={
+      Array [
+        Array [
+          0,
+          0,
+          0,
+          0,
+          0,
+        ],
+        Array [
+          1,
+          1,
+          1,
+          0,
+          0,
+        ],
+        Array [
+          0,
+          0,
+          1,
+          0,
+          0,
+        ],
+        Array [
+          0,
+          1,
+          1,
+          0,
+          0,
+        ],
+        Array [
+          0,
+          1,
+          0,
+          1,
+          "x",
+        ],
+        Array [
+          0,
+          1,
+          1,
+          1,
+          0,
+        ],
+      ]
+    }
+    solveMaze={[Function]}
+    startCol={1}
+    startRow={0}
+  />
+  <button
+    className="btn"
+    onClick={[Function]}
+  >
+    Go
+  </button>
+</div>
+`;
+
+exports[`should be able to activate button with Space-bar 1`] = `
+<Pathfinder>
+  <div
+    className="page"
+  >
+    Solve the Maze!
+    <Maze
+      directions={Array []}
+      maze={
+        Array [
+          Array [
+            0,
+            0,
+            0,
+            0,
+            0,
+          ],
+          Array [
+            1,
+            1,
+            1,
+            0,
+            0,
+          ],
+          Array [
+            0,
+            0,
+            1,
+            0,
+            0,
+          ],
+          Array [
+            0,
+            1,
+            1,
+            0,
+            0,
+          ],
+          Array [
+            0,
+            1,
+            0,
+            1,
+            "x",
+          ],
+          Array [
+            0,
+            1,
+            1,
+            1,
+            0,
+          ],
+        ]
+      }
+      solveMaze={[Function]}
+      startCol={1}
+      startRow={0}
+    >
+      <div
+        className="maze"
+        style={
+          Object {
+            "gridTemplateColumns": "repeat(6, 0fr)",
+          }
+        }
+      >
+        <div
+          key="0"
+        >
+          <div
+            className="cell
+                zero"
+            key="00"
+          />
+          <div
+            className="cell
+                zero"
+            key="01"
+          />
+          <div
+            className="cell
+                zero"
+            key="02"
+          />
+          <div
+            className="cell
+                zero"
+            key="03"
+          />
+          <div
+            className="cell
+                zero"
+            key="04"
+          />
+        </div>
+        <div
+          key="1"
+        >
+          <div
+            className="cell
+                start"
+            key="10"
+          />
+          <div
+            className="cell
+                one"
+            key="11"
+          />
+          <div
+            className="cell
+                one"
+            key="12"
+          />
+          <div
+            className="cell
+                zero"
+            key="13"
+          />
+          <div
+            className="cell
+                zero"
+            key="14"
+          />
+        </div>
+        <div
+          key="2"
+        >
+          <div
+            className="cell
+                zero"
+            key="20"
+          />
+          <div
+            className="cell
+                zero"
+            key="21"
+          />
+          <div
+            className="cell
+                one"
+            key="22"
+          />
+          <div
+            className="cell
+                zero"
+            key="23"
+          />
+          <div
+            className="cell
+                zero"
+            key="24"
+          />
+        </div>
+        <div
+          key="3"
+        >
+          <div
+            className="cell
+                zero"
+            key="30"
+          />
+          <div
+            className="cell
+                one"
+            key="31"
+          />
+          <div
+            className="cell
+                one"
+            key="32"
+          />
+          <div
+            className="cell
+                zero"
+            key="33"
+          />
+          <div
+            className="cell
+                zero"
+            key="34"
+          />
+        </div>
+        <div
+          key="4"
+        >
+          <div
+            className="cell
+                zero"
+            key="40"
+          />
+          <div
+            className="cell
+                one"
+            key="41"
+          />
+          <div
+            className="cell
+                zero"
+            key="42"
+          />
+          <div
+            className="cell
+                one"
+            key="43"
+          />
+          <div
+            className="cell
+                finish"
+            key="44"
+          />
+        </div>
+        <div
+          key="5"
+        >
+          <div
+            className="cell
+                zero"
+            key="50"
+          />
+          <div
+            className="cell
+                one"
+            key="51"
+          />
+          <div
+            className="cell
+                one"
+            key="52"
+          />
+          <div
+            className="cell
+                one"
+            key="53"
+          />
+          <div
+            className="cell
+                zero"
+            key="54"
+          />
+        </div>
+      </div>
+    </Maze>
+    <button
+      className="btn"
+      onClick={[Function]}
+    >
+      Go
+    </button>
+  </div>
+</Pathfinder>
+`;
