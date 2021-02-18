@@ -49,7 +49,8 @@ class Pathfinder extends Component {
       if (this.maze[col][row] === 1) {
         console.log(
           this.movesCount ?
-          this.findDirection(this.coordinates, [col, row]) :
+          `${this.findDirection(this.coordinates, [col, row])}
+          -- ${this.movesCount}` :
           '🎉 Start'
         );
         this.movesCount++;
