@@ -4,7 +4,7 @@ exports[`<Pathfinder /> matches the snapshot 1`] = `
 <div
   className="page"
 >
-  Solve the Maze!
+  Solve the Maze! Open Console
   <Maze
     directions={Array []}
     maze={
@@ -71,7 +71,7 @@ exports[`should be able to activate button with Space-bar 1`] = `
   <div
     className="page"
   >
-    Solve the Maze!
+    Solve the Maze! Open Console
     <Maze
       directions={Array []}
       maze={

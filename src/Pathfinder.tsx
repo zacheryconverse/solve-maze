@@ -79,7 +79,7 @@ class Pathfinder extends Component {
     const { maze, startCol, startRow, directions } = this.state;
     return (
       <div className='page'>
-        Solve the Maze!
+        Solve the Maze! Open Console
         <Maze
           maze={maze}
           startCol={startCol}
